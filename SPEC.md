@@ -18,6 +18,7 @@ Sharing states:
 
 
 Link expiration states: Never/1 months/1 week/24 hours
+On expiration state change the link field regenerates with a new link and disables the old link; the new link life duration is displayed next to the link with estimated deadline
 Copy link button: copies to clipboard and displays a toast message "The link was copied to clipboard."
 
 If the status is set to "Private" the copy link button is disabled and greyed out
