@@ -14,11 +14,13 @@ Sharing states:
 | -------- | -------- | -------- |
 | Private  | Owner has read/edit access   | Only the owner can read/edit. |
 | Anyone with link | Everyone on the internet with the link can read/edit   |  Everyone on the internet with the link can read/edit. |
-| Workspace | List of team members with their individual read/edit toggle | Following team members have access. |
+| Workspace | List of team members with their individual read/edit toggle | The following team members have access. |
 
 
 Link expiration states: Never/1 months/1 week/24 hours
-Copy link button: copies to clipboard. If the link is set to "Never," the button is disabled and greyed out
+Copy link button: copies to clipboard and displays a toast message "The link was copied to clipboard."
+
+If the status is set to "Private" the copy link button is disabled and greyed out
 
 
 Acceptance checks
