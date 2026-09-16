@@ -3,3 +3,9 @@ Solution: Share panel should clearly state its current sharing status, provide a
 
 Project goal: create a redesign of existing page sharing panel in Notion. It should show in intuitive and easy to grasp way who can view and edit the page. The ability to switch between different sharing options (e.g., public, private, team, specific people). Also it should have sharing link expiration settings
 Deliverable: Just a single page with a mockup of the redesigned sharing panel, including clear labels, icons, and visual hierarchy to indicate the current sharing status and available options. The mockup should also include a section for managing permissions and setting link expiration.
+
+On Private status should display: Only the owner can read/edit
+On Public: Everyone on the internet with the link can read/edit
+On Team: Following team members can read/edit
+
+Link expiration: Never/1 months/1 week/24 hours
