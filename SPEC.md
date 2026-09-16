@@ -5,10 +5,9 @@ Project goal: create a redesign of the existing page sharing panel in Notion. It
 Deliverable: Just a single page with a mockup of the redesigned sharing panel, including clear labels, icons, and visual hierarchy to indicate the current sharing status and available options. The mockup should also include a section for managing permissions and setting link expiration.
 
 Sharing states:
-- On Private status should display: 
-- On Anyone with link:
-- On Team: 
-- On Public: 
+- Private
+- Anyone with link
+- Workspace
 
 
 | State  | Access | Sentence shown |
@@ -16,7 +15,6 @@ Sharing states:
 | Private  | Owner has read/edit access   | Only the owner can read/edit. |
 | Anyone with link | Everyone on the internet with the link can read/edit   |  Everyone on the internet with the link can read/edit. |
 | Workspace | List of team members with their individual read/edit toggle | Following team members have access. |
-| Public   | Anyone on the web can read but not edit   | Anyone on the web can find and view this page and read it but not edit.  |
 
 
 Copy link button: copies to clipboard
